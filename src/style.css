@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.weak {
+  color: red;
+}
+.medium {
+  color: orange;
+}
+.strong {
+  color: green;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.progress {
+  height: 100%;
+  background-color: #4caf50;
+  border-radius: 5px;
+  width: 0%;
+}
+label{
+  color:#eb3452;
+}
+
+.count{
+  margin-left:0rem;
+}
